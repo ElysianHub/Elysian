@@ -1,0 +1,72 @@
+local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
+
+local MainUI = UILibrary.Load("Elysian Hub")
+local FirstPage = MainUI.AddPage("Home")
+local SecondPage = MainUI.AddPage("Scripts")
+local ThirdPage = MainUI.AddPage("Buy DHC")
+local FourthPage = MainUI.AddPage("Keys")
+local FifthPage = MainUI.AddPage("Updates")
+local SixthPage = MainUI.AddPage("Your Account")
+local SeventhPage = MainUI.AddPage("Credits")
+
+--Credits--
+local SeventhLabel = SeventhPage.AddLabel("liqds - Maker/Owner")
+local SeventhLabel = SeventhPage.AddLabel("twink marie - UI Designer")
+local SeventhLabel = SeventhPage.AddLabel("---Special Thanks To---")
+local SeventhLabel = SeventhPage.AddLabel("The Creators Of The Scripts")
+--Scripts--
+local SecondButton = SecondPage.AddButton("Destiny (Dahood)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/compwnter/destiny/main/loader'))();
+end)
+local SecondButton = SecondPage.AddButton("Swagmode (Dahood)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+local SecondButton = SecondPage.AddButton("Vape V4 (Bedwars)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+local SecondButton = SecondPage.AddButton("V.G Hub (Adopt me + more)", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+local SecondButton = SecondPage.AddButton("Eclipse Hub(MM2 + More", function()
+    getgenv().mainKey = "nil"
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+local SecondButton = SecondPage.AddButton("Syntax V2 (FE)", function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Vallater/SyntaxFE/main/README.txt'),true))()
+end)
+local SecondButton = SecondPage.AddButton("Inf yeild (FE)", function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+local SecondButton = SecondPage.AddButton("Vynixius (Jailbreak)", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
+end)
+local SecondButton = SecondPage.AddButton("Jailbreak Autorob", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+end)
+local SecondButton = SecondPage.AddButton("Prison Life (Admin)", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+local SecondButton = SecondPage.AddButton("Break In", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Wg8pEW3Z", true))()
+end)
+local SecondButton = SecondPage.AddButton("Break In (SWAT Gamepass)", function()
+	local A_1 = "SwatGun"
+	local A_2 = true
+	local Event = game:GetService("ReplicatedStorage").RemoteEvents.OutsideRole
+	Event:FireServer(A_1, A_2)
+end)
+--Updates--
+local FifthLabel = FifthPage.AddLabel("---Updates---")
+local FifthLabel = FifthPage.AddLabel("(V 1.0.0)")
+local FifthLabel = FifthPage.AddLabel("Hub Made By liqds#1917")
+--Buy DHC--
+local ThirdLabel = ThirdPage.AddLabel("Put the link downbelow in your browser")
+local ThirdLabel = ThirdPage.AddLabel("https://discord.gg/8VZHdWDhxx")
+local ThirdLabel = ThirdPage.AddLabel("If you buy from us you get this script as extra")
+--Keys--
+local FourthLabel = FourthPage.AddLabel("(When ever you need a key i'll try to put it in here)")
+local FourthLabel = FourthPage.AddLabel("Syntax V2 Key: Syntaxspooky")
+--Home--
+local FirstLabel = FirstPage.AddLabel("Thanks For Using Elysian Hub")
+local FirstLabel = FirstPage.AddLabel("Go into scripts tab for all the scripts")
+local FirstLabel = FirstPage.AddLabel("Look at the other tabs if you want")
