@@ -1,10 +1,5 @@
 local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
-game.StarterGui:SetCore("SendNotification", {
-	Title = "Please Join Our Discord",
-	Text = "https://discord.gg/K6jYymsQCc",
-	Duration = 60,
-
 local MainUI = UILibrary.Load("Elysian Hub")
 local FirstPage = MainUI.AddPage("Home")
 local SecondPage = MainUI.AddPage("Scripts")
