@@ -13,8 +13,8 @@ player = game.Players.LocalPlayer
 
 player:GetMouse().KeyDown:Connect(function(key)
 	if key == "e" and UILibrary.Visible == false then
-		script.Parent.Visible = true
-	else script.Parent.Visible = false
+		UILibrary.Visible = true
+	else UILibrary.Visible = false
 	end
 end)
 
