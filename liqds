@@ -4,7 +4,7 @@ local Plr = game.Players.LocalPlayer
  
 Plr:GetMouse().KeyDown:Connect(function(V)
     if V == "V" then
-        script.Parent.Visible = true
+        UILibrary.Visible = true
     end
     end)
 
@@ -12,7 +12,7 @@ local Plr = game.Players.LocalPlayer
  
 Plr:GetMouse().KeyDown:Connect(function(V)
     if V == "V" then
-        script.Parent.Visible = false
+        UILibrary.Visible = false
     end
     end)
 
