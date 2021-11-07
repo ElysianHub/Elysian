@@ -9,6 +9,22 @@ local FifthPage = MainUI.AddPage("Updates")
 local SixthPage = MainUI.AddPage("Your Account")
 local SeventhPage = MainUI.AddPage("Credits")
 
+local Plr = game.Players.LocalPlayer
+ 
+Plr:GetMouse().KeyDown:Connect(function(K)
+    if K == "e" then
+       CoreUI.Visible = true
+    end
+    end)
+
+local Plr = game.Players.LocalPlayer
+
+Plr:GetMouse().KeyDown:Connect(function(K)
+    if K == "e" then
+        CoreUI.Visible = false
+    end
+    end)
+
 --Credits--
 local SeventhLabel = SeventhPage.AddLabel("liqds - Maker/Owner")
 local SeventhLabel = SeventhPage.AddLabel("twink marie - UI Designer")
