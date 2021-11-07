@@ -1,20 +1,17 @@
 local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
-local Plr = game.Players.LocalPlayer
- 
-Plr:GetMouse().KeyDown:Connect(function(V)
-    if V == "V" then
-        UILibrary.Visible = true
-    end
-    end)
-
-local Plr = game.Players.LocalPlayer
- 
-Plr:GetMouse().KeyDown:Connect(function(V)
-    if V == "V" then
-        UILibrary.Visible = false
-    end
-    end)
+game:GetService('UserInputService').InputBegan:connect(function(key, gpe)
+           if (not gpe) then
+               if key.KeyCode == Enum.KeyCode.RightControl then
+                   library.toggled = not library.toggled;
+                   for i, data in next, library.queue do
+                       local pos = (library.toggled and data.p or UDim2.new(-1, 0, -0.5,0))
+                       data.w:TweenPosition(pos, (library.toggled and 'Out' or 'In'), 'Quad', 0.15, true)
+                       wait();
+                   end
+               end
+           end
+       end)
 
 local MainUI = UILibrary.Load("Elysian Hub")
 local FirstPage = MainUI.AddPage("Home")
