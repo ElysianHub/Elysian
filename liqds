@@ -1,17 +1,9 @@
 local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
-game:GetService('UserInputService').InputBegan:connect(function(key, gpe)
-           if (not gpe) then
-               if key.KeyCode == Enum.KeyCode.RightControl then
-                   library.toggled = not library.toggled;
-                   for i, data in next, library.queue do
-                       local pos = (library.toggled and data.p or UDim2.new(-1, 0, -0.5,0))
-                       data.w:TweenPosition(pos, (library.toggled and 'Out' or 'In'), 'Quad', 0.15, true)
-                       wait();
-                   end
-               end
-           end
-       end)
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Please Join Our Discord",
+	Text = "https://discord.gg/K6jYymsQCc",
+	Duration = 60,
 
 local MainUI = UILibrary.Load("Elysian Hub")
 local FirstPage = MainUI.AddPage("Home")
