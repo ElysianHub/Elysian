@@ -1,5 +1,21 @@
 local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
+local Plr = game.Players.LocalPlayer
+ 
+Plr:GetMouse().KeyDown:Connect(function(V)
+    if V == "V" then
+        script.Parent.Visible = true
+    end
+    end)
+
+local Plr = game.Players.LocalPlayer
+ 
+Plr:GetMouse().KeyDown:Connect(function(V)
+    if V == "V" then
+        script.Parent.Visible = false
+    end
+    end)
+
 local MainUI = UILibrary.Load("Elysian Hub")
 local FirstPage = MainUI.AddPage("Home")
 local SecondPage = MainUI.AddPage("Scripts")
