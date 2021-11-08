@@ -8,7 +8,6 @@ local FourthPage = MainUI.AddPage("Keys")
 local FifthPage = MainUI.AddPage("Updates")
 local SixthPage = MainUI.AddPage("Your Account")
 local SeventhPage = MainUI.AddPage("Credits")
-
 --Credits--
 local SeventhLabel = SeventhPage.AddLabel("liqds - Maker/Owner")
 local SeventhLabel = SeventhPage.AddLabel("twink marie - UI Designer")
