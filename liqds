@@ -6,7 +6,7 @@ local SecondPage = MainUI.AddPage("Scripts")
 local ThirdPage = MainUI.AddPage("Buy DHC")
 local FourthPage = MainUI.AddPage("Keys")
 local FifthPage = MainUI.AddPage("Updates")
-local SixthPage = MainUI.AddPage("Your Account")
+local SixthPage = MainUI.AddPage("Coming Soon!")
 local SeventhPage = MainUI.AddPage("Credits")
 
 --Credits--
@@ -19,6 +19,9 @@ local SeventhLabel = SeventhPage.AddLabel("Everyone Who Brought DHC From Us")
 --Scripts--
 local SecondButton = SecondPage.AddButton("Destiny (Dahood)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/compwnter/destiny/main/loader'))();
+end)
+local SecondButton = SecondPage.AddButton("Faded (Dahood)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
 end)
 local SecondButton = SecondPage.AddButton("Swagmode (Dahood)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
@@ -57,17 +60,24 @@ local SecondButton = SecondPage.AddButton("Break In (SWAT Gamepass)", function()
 	local Event = game:GetService("ReplicatedStorage").RemoteEvents.OutsideRole
 	Event:FireServer(A_1, A_2)
 end)
+local SecondButton = SecondPage.AddButton("Aurora (Trade Tower)", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/creamjngg/ScriptHub1/main/AuroraFree', true))()
+end)
 --Updates--
 local FifthLabel = FifthPage.AddLabel("---Updates---")
-local FifthLabel = FifthPage.AddLabel("(V 1.0.0)")
+local FifthLabel = FifthPage.AddLabel("(V 1.1.0)")
+local FifthLabel = FifthPage.AddLabel("Added More Scripts")
+local FifthLabel = FifthPage.AddLabel("Added More Into The Credits")
+local FifthLabel = FifthPage.AddLabel("Added More Into Buy DHC")
 local FifthLabel = FifthPage.AddLabel("Hub Made By liqds#1917")
 --Buy DHC--
 local ThirdLabel = ThirdPage.AddLabel("Put the link downbelow in your browser")
 local ThirdLabel = ThirdPage.AddLabel("https://discord.gg/6QzsRKNHnp")
 local ThirdLabel = ThirdPage.AddLabel("If you buy from us you get this script as extra")
 --Keys--
-local FourthLabel = FourthPage.AddLabel("(When ever you need a key i'll try to put it in here)")
+local FourthLabel = FourthPage.AddLabel("(When ever you need a key i'll put it in here)")
 local FourthLabel = FourthPage.AddLabel("Syntax V2 Key: Syntaxspooky")
+local FourthLabel = FourthPage.AddLabel("Aurora Key: d5rf6tg7yhu")
 --Home--
 local FirstLabel = FirstPage.AddLabel("Thanks For Using Elysian Hub")
 local FirstLabel = FirstPage.AddLabel("Go into scripts tab for all the scripts")
