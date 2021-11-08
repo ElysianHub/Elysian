@@ -1,13 +1,5 @@
 local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
 
-local UIS = game:GetService('UserInputService')
-
-UIS.InputBegan:Connect(function(input)
-	if input.KeyCode == Enum.KeyCode.RightShift then
-		script.Parent.Visible = true
-	end
-end)
-
 local MainUI = UILibrary.Load("Elysian Hub")
 local FirstPage = MainUI.AddPage("Home")
 local SecondPage = MainUI.AddPage("Scripts")
@@ -18,9 +10,11 @@ local SixthPage = MainUI.AddPage("Your Account")
 local SeventhPage = MainUI.AddPage("Credits")
 --Credits--
 local SeventhLabel = SeventhPage.AddLabel("liqds - Maker/Owner")
+local SeventhLabel = SeventhPage.AddLabel("! mio - Co-Owner")
 local SeventhLabel = SeventhPage.AddLabel("twink marie - UI Designer")
 local SeventhLabel = SeventhPage.AddLabel("---Special Thanks To---")
 local SeventhLabel = SeventhPage.AddLabel("The Creators Of The Scripts")
+local SeventhLabel = SeventhPage.AddLabel("Everyone Who Brought DHC From Us")
 --Scripts--
 local SecondButton = SecondPage.AddButton("Destiny (Dahood)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/compwnter/destiny/main/loader'))();
@@ -68,7 +62,7 @@ local FifthLabel = FifthPage.AddLabel("(V 1.0.0)")
 local FifthLabel = FifthPage.AddLabel("Hub Made By liqds#1917")
 --Buy DHC--
 local ThirdLabel = ThirdPage.AddLabel("Put the link downbelow in your browser")
-local ThirdLabel = ThirdPage.AddLabel("https://discord.gg/8VZHdWDhxx")
+local ThirdLabel = ThirdPage.AddLabel(https://discord.gg/6QzsRKNHnp")
 local ThirdLabel = ThirdPage.AddLabel("If you buy from us you get this script as extra")
 --Keys--
 local FourthLabel = FourthPage.AddLabel("(When ever you need a key i'll try to put it in here)")
