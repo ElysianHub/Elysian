@@ -10,7 +10,7 @@ local SixthPage = MainUI.AddPage("Your Account")
 local SeventhPage = MainUI.AddPage("Credits")
 --Credits--
 local SeventhLabel = SeventhPage.AddLabel("liqds - Maker/Owner")
-local SeventhLabel = SeventhPage.AddLabel("! mio - Co-Owner")
+local SeventhLabel = SeventhPage.AddLabel("mio - Co-Owner")
 local SeventhLabel = SeventhPage.AddLabel("twink marie - UI Designer")
 local SeventhLabel = SeventhPage.AddLabel("---Special Thanks To---")
 local SeventhLabel = SeventhPage.AddLabel("The Creators Of The Scripts")
