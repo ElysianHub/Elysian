@@ -17,6 +17,9 @@ local SeventhLabel = SeventhPage.AddLabel("---Special Thanks To---")
 local SeventhLabel = SeventhPage.AddLabel("The Creators Of The Scripts")
 local SeventhLabel = SeventhPage.AddLabel("Everyone Who Brought DHC From Us")
 --Scripts--
+local SecondButton = SecondPage.AddButton("Encrypt (Dahood)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/encryptgui.lua"))()
+end)
 local SecondButton = SecondPage.AddButton("Destiny (Dahood)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/compwnter/destiny/main/loader'))();
 end)
